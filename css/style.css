@@ -35,9 +35,6 @@ main section:nth-child(2n+2) {
 /* footer */
 footer {
   color: white;
-}
-
-footer .container {
   background-color: #3A546D;
 }
 
