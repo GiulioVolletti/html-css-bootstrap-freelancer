@@ -11,6 +11,13 @@ body {
  text-align: center;
 }
 
+header {
+  color: white;
+}
+
+header section:not(:first-child) {
+  background-color: #1ABC9C;
+}
 #header-nav {
   background-color: #2C3E50;
   text-align: left;
@@ -23,13 +30,21 @@ body {
 li {
   list-style: none;
 }
-
-header section:not(:first-child) {
+.btm-green {
+  padding: 25px 0;
+}
+.btm-green a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
   background-color: #1ABC9C;
+  border: 1px solid white;
+  border-radius: 5%;
 }
 
 main section:nth-child(2n+2) {
   background-color:  #1ABC9C;
+  color: white;
 }
 
 /* footer */
@@ -45,6 +60,9 @@ footer section:not(:first-child) {
 /* /footer */
 
 /* testing */
+ul {
+  text-align: right;
+}
 li {
   font-size: 0px;
   width: 35px;
