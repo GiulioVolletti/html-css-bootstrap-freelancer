@@ -12,7 +12,7 @@ header {
   color: white;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: bold;
 }
 
@@ -25,7 +25,10 @@ img {
   width: 200px;
 }
 /* /utility */
-
+#header-nav h3 {
+  margin: 0 15px;
+  line-height: 80px;
+}
 #header-nav {
   background-color: #2C3E50;
   position: fixed;
@@ -86,7 +89,7 @@ footer section:not(:first-child) {
 /* /footer */
 
 /* testing */
-ul {
+/* ul {
   text-align: right;
 }
 li {
@@ -110,6 +113,6 @@ li {
 @media screen and (min-width: 769px) {
   li {
     display: inline-block;
-  }
+  } */
 }
 /* testing */
